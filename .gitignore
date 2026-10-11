@@ -1,0 +1,19 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Bancos de dados locais
+*.sqlite3
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados pelo Django
+staticfiles/
+media/
